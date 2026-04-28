@@ -22,13 +22,6 @@
     a{
         text-decoration: none;
     }
-    #sair{
-        font-size: 20pt;
-        color: white;
-    } 
-    #sair:hover{
-        color: red;
-    }
     img{
         height: 3rem;
         width: 3rem;
@@ -50,4 +43,11 @@
 .li:hover{
     scale: 1.05;
     cursor: pointer;
+}
+#sair{
+    font-size: 20pt;
+    color: white;
+} 
+#sair:hover{
+    i{color: red;}
 }
