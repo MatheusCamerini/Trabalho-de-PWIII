@@ -134,8 +134,8 @@ confirmOverlay.addEventListener('click', (e) => {
 
 $('#confirm-ok').addEventListener('click', async () => {
     if (!App.pendingDeleteId) return;
-    closeConfirm();
     await sendRequest({ action: 'delete', id: App.pendingDeleteId });
+    closeConfirm();
 });
 
 // ── Delegação de eventos na tabela ───────────────────────────

@@ -8,6 +8,7 @@ define('DB_NAME', 'inventario_db');
 define('DB_USER', 'root');          // ← altere para seu usuário
 define('DB_PASS', '');              // ← altere para sua senha
 define('DB_CHARSET', 'utf8mb4');
+define('DB_COLLATION', 'utf8mb4_general_ci');
 
 /**
  * Retorna uma instância singleton de PDO.
